@@ -61,7 +61,8 @@ public class BookingAgent {
     @TypedCategory(BookingAgent.class)
     private BookingLog log;
 
-    @PersistenceContext(type = EXTENDED)
+    //@PersistenceContext(type = EXTENDED)
+    @PersistenceContext
     private EntityManager em;
 
     @Inject
