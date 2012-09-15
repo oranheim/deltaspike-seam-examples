@@ -62,7 +62,8 @@ public class ApplicationInitializer {
                 new User("Shane Bryzak", "shane", "shane@example.com", "brisbane"),
                 new User("Dan Allen", "dan", "dan@example.com", "laurel"),
                 new User("Lincoln Baxter III", "lincoln", "lincoln@example.com", "charlotte"),
-                new User("Jose Freitas", "jose", "jose.freitas@example.com", "brazil")));
+                new User("Jose Freitas", "jose", "jose.freitas@example.com", "brazil"),
+        		new User("Ove Ranheim", "ove", "oranheim@example.com", "vibeke")));
 
         hotels.addAll(Arrays.asList(
                 new Hotel(129, 3, "Marriott Courtyard", "Tower Place, Buckhead", "Atlanta", "GA", "30305", "USA"),
